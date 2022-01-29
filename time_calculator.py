@@ -28,7 +28,7 @@ def add_time(start, duration, day = ''):
 
     daysCounter = round(newHours / 24)
 
-    while newHours >= 12:
+    while newHours >= 13:
         newHours = newHours - 12
         if timeInterval == 'AM':
             timeInterval = 'PM'
